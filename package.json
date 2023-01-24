@@ -1,0 +1,28 @@
+{
+  "name": "cleanblog",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bugracntp/CleanBlog.git"
+  },
+  "author": "bugra cantepe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bugracntp/CleanBlog/issues"
+  },
+  "homepage": "https://github.com/bugracntp/CleanBlog#readme",
+  "devDependencies": {
+    "prettier": "2.8.3"
+  },
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
