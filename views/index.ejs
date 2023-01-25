@@ -21,10 +21,9 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
-
         <% for(let i =0; i < Posts.length; i++) {%>
           <div class="post-preview">
-            <a href="post.html">
+            <a href="/posts/<%= Posts[i]._id %> ">
               <h2 class="post-title">
                 <%=Posts[i].title %>
               </h2>
@@ -36,7 +35,6 @@
           </div>
           <hr>
         <% } %>
-
         <!-- Pager -->
         <div class="clearfix">
           <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
